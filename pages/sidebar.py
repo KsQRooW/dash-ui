@@ -101,7 +101,7 @@ sidebar = html.Div([
 
 
                 dbc.FormText("Separator", id="sidebar_formtext_symbol"),
-                dbc.Input(id="sidebar_input_symbol", size="sm", valid=False),
+                dbc.Input(id="sidebar_input_symbol", size="sm", valid=False, value=','),
 
 
 
